@@ -79,4 +79,4 @@ Change policy:
 http://localhost:8080/policy/set
 
 CLI : 
-3   ← refresh policy
+3   ← refresh policy# distributed-rate-limiter
