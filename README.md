@@ -19,8 +19,8 @@ HTTP for simple REST interactions
            │  (HTTP + gRPC Control Plane) │
            ├───────────┬──────────────────┤
            │ HTTP      │ gRPC             │
-/policy/set│           │ GetPolicy(key)   │
-           ▼           ▼
+/policy/set │           │ GetPolicy(key)   │
+            ▼           ▼
         ┌───────────────────────┐
         │ C++ Token Bucket Agent│
         │   (Data Plane)        │
