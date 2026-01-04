@@ -1,0 +1,19 @@
+# C++ build
+*.o
+example_cli
+
+# Generated protobuf (C++ can stay, Go stays)
+# Uncomment next lines if you ever want to regenerate
+# cpp-tokenbucket/generated/*.cc
+# cpp-tokenbucket/generated/*.h
+
+# Go build artifacts
+*.exe
+*.test
+*.out
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store

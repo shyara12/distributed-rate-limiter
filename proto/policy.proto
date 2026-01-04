@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package policy;
+
+// REQUIRED FOR GO:
+option go_package = "distributed-rate-limiter/proto;policy";
+
+service PolicyService {
+  rpc GetPolicy(PolicyRequest) returns (PolicyResponse);
+}
+
+message PolicyRequest {
+  string key = 1;
+}
+
+message PolicyResponse {
+  string key = 1;
+  double capacity = 2;
+  double refill_rate = 3;
+}
